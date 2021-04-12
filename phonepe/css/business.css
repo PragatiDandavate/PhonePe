@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Signika", sans-serif;
+}
+body {
+  background-color: #fff;
+}
+/* ----Header block starts here--  */
+.header {
+  width: 100%;
+  height: 76px;
+  z-index: 9999;
+  position: sticky;
+  top: 0px;
+  border-bottom: 2px solid rgb(160, 155, 155);
+  background-color: #fff;
+}
+.header article {
+  width: 1268px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 76px;
+}
+.header article div ul li {
+  list-style: none;
+}
+.header article img {
+  width: 169px;
+  height: 83.2px;
+}
+
+.header article .nav ul {
+  width: 1099px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header article .nav ul li {
+  margin: 3px 19px;
+  padding: 4px;
+}
+.header article .nav ul li a {
+  width: 53px;
+  height: 26px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Signika", sans-serif;
+  color: rgb(68, 64, 64);
+}
+.header article .nav ul div a {
+  content: "";
+  height: 14px;
+  display: block;
+  background-color: #5f259f;
+  width: 117%;
+  margin: -7px -7%;
+  position: relative;
+  top: 22px;
+}
+.header article .nav ul li a:hover {
+  color: #5f259f;
+}
+/* ----Header block ends here--  */
+/* ----container1 block starts here--  */
+.container1 {
+  width: 100%;
+  height: 475px;
+  border: 1px solid black;
+}
+.container1 article {
+  display: flex;
+}
+.container1 article .left {
+  width: 672.13px;
+  height: 475.93px;
+  background-color: #5f259f;
+  padding-top: 8%;
+  padding-left: 8%;
+}
+.container1 article .left h2 {
+  color: #fff;
+  padding-top: 8%;
+  padding-left: 8%;
+  width: 65%;
+  margin: 31px;
+  font-size: 37px;
+}
+.container1 article .left p {
+  color: #fff;
+  padding-left: 14%;
+  font-size: 23px;
+}
+.container1 article .right img {
+  flex: 1;
+  width: 862px;
+  height: 475px;
+  background-color: #5f259f;
+}
+/* ----container1 block ends here--  */
+/* ----container2 block starts here--  */
+.container2 {
+  width: 100%;
+  height: 86px;
+}
+.container2 article {
+  width: 1014px;
+  height: 86px;
+  margin: 0 auto;
+}
+.container2 article .options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 70px;
+  border-radius: 36px;
+  box-shadow: 0 12px 26px 0 rgba(0, 0, 0, 0.14);
+  position: relative;
+  top: -38px;
+  background: #fff;
+  overflow: hidden;
+}
+.options a {
+  text-decoration: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
+  padding: 30px;
+  margin: auto;
+}
+.options a:hover {
+  background-color: #d3cae2;
+}
+/* ----container2 block ends here--  */
+/* ----container3 block starts here--  */
+.container3 {
+  width: 100%;
+  height: 729.69px;
+}
+.container3 article {
+  width: 1268px;
+  height: 632px;
+  margin: 0 auto;
+}
+.container3 article .empty {
+  height: 76px;
+  width: 1268px;
+}
+.container3 article .block1 {
+  display: flex;
+}
+.container3 article .block1 .b11 img {
+  width: 780p.8px;
+  height: 556.94px;
+}
+.container3 article .block1 .b12 {
+  height: 556.94px;
+  width: 456.48px;
+}
+.b12 {
+  display: flex;
+  flex-direction: column;
+}
+.b12 h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #361374;
+  margin-bottom: 44px;
+}
+.b12 p {
+  font-size: 0.875rem;
+  line-height: 2.29;
+  letter-spacing: 0;
+  color: #333;
+}
+.b12 a {
+  margin-top: 41px;
+  margin-left: 57px;
+  width: 225px;
+  padding: 17px;
+  border-radius: 31px;
+  font-size: 17px;
+  background-color: #07c3de;
+  color: #fff;
+  text-decoration: none;
+}
+.b12 h3 {
+  margin-top: 51px;
+  margin-left: 44px;
+  font-size: 22px;
+  color: rgb(41, 39, 39);
+}
+.b12 a:hover {
+  box-shadow: 0 17px 24px 0 rgba(162, 224, 217, 0),
+    0 5px 12px 0 rgba(48, 229, 252, 0.5);
+  background-color: #10d6f2;
+}
+/* ----container3 block ends here--  */
+/* ----container4 block starts here--  */
+.container4 {
+  width: 100%;
+  height: 806px;
+}
+.container4 article {
+  width: 1268px;
+  height: 806px;
+  margin: 0 auto;
+}
+.container4 article .empty {
+  width: 1268px;
+  height: 76px;
+}
+.container4 article .content {
+  width: 1268px;
+  height: 730px;
+  display: flex;
+}
+.container4 article .content .left {
+  width: 456.48px;
+  height: 625px;
+}
+.content .left .hp {
+  display: flex;
+  flex-direction: column;
+}
+.hp h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #361374;
+  margin-bottom: 44px;
+}
+.hp p {
+  font-size: 0.875rem;
+  line-height: 2.29;
+  letter-spacing: 0;
+  color: #333;
+  text-align: justify;
+}
+.hp2 {
+  display: flex;
+  flex-direction: column;
+}
+.hp2 a {
+  text-decoration: none;
+  margin-top: 44px;
+  margin-left: 57px;
+  width: 225px;
+  padding: 14px;
+  border-radius: 31px;
+  font-size: 15px;
+  background-color: #07c3de;
+  color: #fff;
+}
+.hp2 h3 {
+  margin-top: 51px;
+  margin-left: 44px;
+  font-size: 22px;
+  color: rgb(41, 39, 39);
+}
+.hp2 a:hover {
+  box-shadow: 0 17px 24px 0 rgba(162, 224, 217, 0),
+    0 5px 12px 0 rgba(48, 229, 252, 0.5);
+  background-color: #10d6f2;
+}
+.container4 article .content .right {
+  width: 722.75px;
+  height: 625px;
+}
+/* ----container4 block ends here--  */
+/*-----container5 block starts here---*/
+.container5 {
+  width: 100%;
+  height: 741px;
+}
+.container5 article {
+  width: 1268px;
+  height: 741px;
+  margin: 0 auto;
+}
+.container5 article .empty {
+  width: 1268px;
+  height: 76px;
+}
+.container5 article .block1 {
+  display: flex;
+}
+.container5 article .block1 .b11 {
+  width: 754px;
+  height: 665px;
+}
+.container5 article .block1 .b12 {
+  width: 447px;
+  height: 561px;
+}
+/*-----container5 block ends here---*/
+/*-----container6 block starts here---*/
+.container6 {
+  width: 100%;
+  height: 537px;
+}
+.container6 article {
+  width: 1268px;
+  height: 537px;
+  margin: 0 auto;
+}
+.container6 article .empty {
+  width: 1268px;
+  height: 76px;
+}
+.container6 article .content {
+  width: 1268px;
+  height: 730px;
+  display: flex;
+}
+.container4 article .content .left {
+  width: 380px;
+  height: 435px;
+}
+.container6 article .content .right {
+  width: 634px;
+  height: 461.78px;
+}
+/*-----container6 block ends here---*/
+/*----container7 start here-------*/
+.conatainer7 {
+  width: 100%;
+  height: 300px;
+
+  background-color: #c98cdb;
+}
+.conatainer7 article {
+  width: 1268px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+}
+.conatainer7 article .left {
+  width: 50%;
+  height: 89px;
+}
+.conatainer7 article .left h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.41;
+  color: #fff;
+  margin-top: 134px;
+  margin-left: 161px;
+  width: 357px;
+}
+.conatainer7 article .right {
+  width: 50%;
+  height: 52px;
+}
+.conatainer7 article .right a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 14px;
+  margin-top: 150px;
+  padding-right: 26px;
+  margin-left: 197px;
+  margin-right: 151px;
+  border-radius: 22px;
+  justify-content: center;
+  letter-spacing: 1px;
+  background-color: #5f269f;
+  color: white;
+  display: flex;
+}
+.conatainer7 article .right a:hover {
+  box-shadow: 0 17px 24px 0 rgba(162, 224, 217, 0), 0 5px 12px 0 #5f269f;
+}
+/*----container7 end here-------*/
+/*------footer starts here---*/
+.foot {
+  width: 100%;
+  height: 316px;
+}
+.foot article {
+  width: 1268px;
+  height: 316px;
+  margin: 0 auto;
+}
+.foot article .content {
+  display: flex;
+}
+.foot article .empty {
+  width: 100%;
+  height: 76px;
+}
+.foot article .content div {
+  margin: -9px 28px;
+}
+.content h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 2.29;
+}
+.content ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  list-style: none;
+  padding-left: 0;
+  width: 124%;
+}
+.content ul li {
+  list-style: none;
+}
+.content ul li a {
+  font-size: 0.875rem;
+  line-height: 2.43;
+  font-weight: 500;
+  letter-spacing: -0.21px;
+  text-decoration: none;
+  color: #333;
+}
+.content .f5 .logo ul {
+  display: flex;
+}
+.logo {
+  margin: -5px 7px;
+}
+.logo img {
+  margin: 9px;
+  margin-left: -15px;
+  padding: 15px;
+  margin-top: 15px;
+}
+/*------footer ends here---*/
